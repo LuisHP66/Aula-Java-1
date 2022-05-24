@@ -9,11 +9,12 @@ public class Aula2 {
 		
 		//se
 		if(num > 5) {
-			System.out.println("Sim o numero " + num + " É maior que 5");
+		System.out.println("Sim o numero " + num + " É maior que 5");
 		   }
+		
 		//se não se
 		else if(num == 5) {
-			   System.out.println("O numero " + num + " É igual a 5");
+		System.out.println("O numero " + num + " É igual a 5");
 	}
 		   
 		//se não
