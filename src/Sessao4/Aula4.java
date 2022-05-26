@@ -3,7 +3,7 @@ package Sessao4;
 
 public class Aula4 {
 public static void main(String[] args) {
-	int numero = 40;
+	int numero = 0;
 	
 	switch (numero) {
 		case 3:
