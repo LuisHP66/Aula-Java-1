@@ -8,7 +8,11 @@ public class Aula02 {
 	public static void main(String[] args) {
 		int idade;
 		String nome;
+		//String nome1;
 		Scanner teclado = new Scanner(System.in);
+		
+		//Scanner teclado1 = new Scanner(System.in);
+		//nome1 = teclado1.nextLine();
 		
 		
 		//Váriavel de controle; condição de parada; forma de incremento.

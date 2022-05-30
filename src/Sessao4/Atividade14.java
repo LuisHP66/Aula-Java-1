@@ -23,6 +23,7 @@ public class Atividade14 {
 		
 		System.out.println("Nome do aluno: ");
 		nome = teclado.nextLine();
+		
 		System.out.println("Primeira nota: ");
 		nota1 = teclado.nextDouble();
 		if(nota1 > 10 || nota1 < 0) {
@@ -44,16 +45,12 @@ public class Atividade14 {
 			System.exit(3);
 		}
 		
-		
-		
-		
-		
 		double x = nota1 * peso1;
 		double y = nota2 * peso2;
 		double z = nota3 * peso3;
 		double resultado = (x + y + z) / (peso1 + peso2 + peso3);		
 		
-		System.out.printf( "Nome do aluno: " + nome + " média do aluno: %.1f %n", resultado);//printf serve para especificar o que vai ser impresso, % para determinar de onde .1 depois do ponto uma casa
+		System.out.printf( "Nome do aluno: " + nome + " Média do aluno: %.1f %n", resultado);//printf serve para especificar o que vai ser impresso, % para determinar de onde .1 depois do ponto uma casa
 		
 		
 		if(resultado <= 2.9) {
